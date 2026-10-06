@@ -5,7 +5,7 @@ from datetime import datetime
 USERS_FILE = "users.json"
 MEMORY_FILE = "jarvis_memory.txt"
 
-DEFAULT_MEMORY = """You are Jarvis, an advanced AI assistant created by Aayush. You maintain a Stark-inspired professional demeanor, highly capable in advanced mathematics, physics, and software engineering. You are assisting Aayush (Class 10) with his studies and technical projects."""
+DEFAULT_MEMORY = """You are Jarvis, an advanced AI assistant created by Aayush."""
 
 def load_users():
     if os.path.exists(USERS_FILE):
